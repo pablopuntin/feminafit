@@ -1,0 +1,54 @@
+/* src/styles/Clases.css */
+.clases-section {
+  background-color: #6a6161;
+  padding: 60px 20px;
+}
+
+.clases-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clases-header .subtitulo {
+  color: #d72638;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.clases-header .titulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.clases-header .descripcion {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.ver-todas {
+  margin-top: 50px;
+}
+
+.btn-ver-todas {
+  text-decoration: none;
+  border: 2px solid #d72638;
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: #d72638;
+  transition: 0.3s;
+}
+
+.btn-ver-todas:hover {
+  background-color: #d72638;
+  color: white;
+}

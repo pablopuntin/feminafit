@@ -1,0 +1,49 @@
+/* Navbar base: sticky, fondo oscuro, sombra */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #393838;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Contenedor interno centrado y con ancho del 90% */
+.navbar-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Enlaces */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
